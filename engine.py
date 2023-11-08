@@ -3,7 +3,26 @@ class CalEngine:
         self.tokens = tokens
 
 
-    def process_tokens(self):
+    def process_tokens(self, tokens):
+        # result = tokens.find()
+        pass
+
+    def process_brackets(self, tokens):
+        indexes = []
+        index = tokens
+        pass 
+
+    def division(self, values):
+        # value = 
+        pass
+
+    def multiplication(self):
+        pass
+
+    def addition(self):
+        pass
+
+    def subtraction(self):
         pass
 
 
