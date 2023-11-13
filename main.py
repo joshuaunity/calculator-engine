@@ -1,4 +1,4 @@
-tokens = "0+4+5+6+7+8+9+10+11+12+13+14+15"
+tokens = "0+4"
 # loop through the string
 # if the character is a ( or a ) then add it to a list
 # if the character is not a ( or a ) then add it to a string
@@ -14,5 +14,6 @@ tokens = "0+4+5+6+7+8+9+10+11+12+13+14+15"
 
 # for e in tokens
 
-
-print(tokens.split("+"))
+operator = "+"
+print(tokens.index(tokens[2]))
+print(tokens.index(tokens[:2]))
